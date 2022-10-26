@@ -63,7 +63,7 @@ namespace ZipTransferSFTP.Tools
                     // Print results
                     foreach (TransferEventArgs transfer in transferResult.Transfers)
                     {
-                        Console.WriteLine("Download of {0} succeeded", transfer.FileName);
+                        Console.WriteLine("Upload of {0} succeeded", transfer.FileName);
                     }
                 }
             }
