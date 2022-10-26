@@ -50,7 +50,7 @@ namespace ZipTransferSFTP.Tools
                     // Connect
                     session.Open(sessionOptions);
 
-                    // Download files
+                    // Upload files
                     TransferOptions transferOptions = new TransferOptions();
                     transferOptions.TransferMode = TransferMode.Binary;
 
